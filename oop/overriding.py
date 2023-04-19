@@ -32,3 +32,5 @@ wanwan = Marksman("wanwan", 100)
 
 valentina.ingfo()
 wanwan.ingfo()
+
+print(valentina.__dict__)
