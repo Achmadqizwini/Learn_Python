@@ -14,7 +14,7 @@ class Tier_Hero:
         print(self.tier)
 
 
-class Hero(Tier_Hero, Tipe_hero):
+class Hero(Tier_Hero, Tipe_hero):  # resolution order
     def __init__(self, name, health, attack_power):
         self.name = name
         self.health = health
