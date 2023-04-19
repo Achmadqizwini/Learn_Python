@@ -14,13 +14,11 @@ class Fighter(Hero):
 class Mage(Hero):
     def __init(self, name, health):
         Hero.__init__(name, health)
-        super().ingfo()
 
 
 class Marksman(Hero):
     def __init__(self, name, health):
         super().__init__(name, health)
-        super().ingfo()
 
 
 alu = Hero("alu", 1000)
@@ -33,3 +31,5 @@ print(valentina.__dict__)
 
 wanwan = Marksman("wanwan", 100)
 print(wanwan.__dict__)
+
+wanwan.ingfo()
