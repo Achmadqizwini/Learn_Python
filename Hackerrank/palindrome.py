@@ -1,5 +1,3 @@
-
-
 def pal(a: str) -> str:
     for i in range(len(a)):
         if a[i] != a[len(a)-i-1]:
